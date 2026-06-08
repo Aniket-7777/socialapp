@@ -1,0 +1,103 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "johndoe",
+      "password": "password123",
+      "name": "John Doe",
+      "bio": "Building cool things with web technology 🚀",
+      "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=johndoe"
+    },
+    {
+      "id": "2",
+      "username": "janedoe",
+      "password": "password123",
+      "name": "Jane Doe",
+      "bio": "Designer, coder, and cat lover 🐱✨",
+      "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=janedoe"
+    },
+    {
+      "id": "3",
+      "username": "alice",
+      "password": "password123",
+      "name": "Alice Smith",
+      "bio": "Exploring the intersections of art & code.",
+      "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=alice"
+    },
+    {
+      "id": "1780830739617",
+      "username": "bajajankush259@gmail.com",
+      "password": "12345678",
+      "name": "ani",
+      "bio": "no",
+      "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=bajajankush259@gmail.com"
+    },
+    {
+      "id": "1780830863783",
+      "username": "vedoii",
+      "password": "5434567890",
+      "name": "ved",
+      "bio": "nothing",
+      "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=vedoii"
+    }
+  ],
+  "posts": [
+    {
+      "id": "p1",
+      "userId": "1",
+      "username": "johndoe",
+      "content": "Hello world! Just launched my new social media app prototype. It uses glassmorphism design. Let me know what you think!",
+      "timestamp": "2026-06-07T09:02:42.461Z",
+      "likes": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "p2",
+      "userId": "2",
+      "username": "janedoe",
+      "content": "Wow, John! The design looks absolutely stunning. The micro-animations are super smooth. 💖",
+      "timestamp": "2026-06-07T09:32:42.463Z",
+      "likes": [
+        "1"
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": "c1",
+      "postId": "p1",
+      "userId": "2",
+      "username": "janedoe",
+      "content": "This looks super cool! Love the typography choice.",
+      "timestamp": "2026-06-07T09:14:42.463Z"
+    },
+    {
+      "id": "c2",
+      "postId": "p1",
+      "userId": "3",
+      "username": "alice",
+      "content": "Agreed! The card glow effect is amazing.",
+      "timestamp": "2026-06-07T10:02:42.463Z"
+    }
+  ],
+  "follows": [
+    {
+      "followerId": "1",
+      "followingId": "2"
+    },
+    {
+      "followerId": "2",
+      "followingId": "1"
+    },
+    {
+      "followerId": "3",
+      "followingId": "1"
+    },
+    {
+      "followerId": "1780830739617",
+      "followingId": "1"
+    }
+  ]
+}

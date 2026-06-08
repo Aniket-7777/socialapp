@@ -1,0 +1,14 @@
+{
+  "name": "mini-social-media-app",
+  "version": "1.0.0",
+  "description": "A lightweight mini social media app built with Express.js and Vanilla CSS/JS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
