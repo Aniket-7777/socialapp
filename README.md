@@ -1,2 +1,2 @@
 # socialapp
-intership project
+internship project
